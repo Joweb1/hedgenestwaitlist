@@ -1,0 +1,108 @@
+.waitlist-info-container {
+  flex: 1 1 0;
+  min-width: 0;
+
+  max-width: 700px;
+
+  padding: 70px 0;
+
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.hero-title {
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 1.18;
+  color: #181739;
+  margin: 0 0 50px;
+}
+
+.hero-title span {
+  color: #DAA520;
+}
+
+.hero-description,
+.features-list {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #55536b;
+  margin-bottom: 24px;
+}
+
+.info-content{
+  flex: 1;
+}
+
+.info-content h3 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #181739;
+  margin: 0 0 8px;
+}
+
+.info-section {
+  display: flex;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.info-content p {
+  font-size: 20px;
+  line-height: 1.6;
+  color: #55536b;
+  margin: 0;
+}
+
+
+.info-label {
+  font-weight: 700;
+  color: #181739;
+}
+.waitlist-bonus {
+  width: 100%;
+  box-sizing: border-box;
+
+  margin-top: 40px;
+  padding: 25px 35px;
+
+  border: 1px solid #e0bd67;
+  border-radius: 20px;
+
+  background-color: #F6EFCD;
+}
+
+.waitlist-bonus h2 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #DAA520;
+
+  margin: 0 0 25px;
+}
+
+.waitlist-bonus ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; 
+}
+
+.waitlist-bonus li {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 14px;
+  color: #2f2f3b;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.waitlist-bonus li:last-child {
+  margin-bottom: 0;
+}
+
+.waitlist-bonus li::before {
+  content: "✓";
+  color: #DAA520; 
+  font-weight: 700;
+  font-size: 18px;
+  flex-shrink: 0; 
+}
