@@ -1,5 +1,5 @@
 import "../Css/Footer.css";
-import WhiteLogo from "../assets/white logo.png";
+import WhiteLogo from "../assets/whitelogo.png";
 import {
   FaRegCopyright,
   FaInstagram,
